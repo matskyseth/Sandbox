@@ -1,0 +1,53 @@
+
+
+body {
+    background-color: lightgray;
+}
+
+.boks1 {
+    background-color: cadetblue;
+    opacity: 0.5;
+}
+
+/*
+RGBA gjør bare bakgrunnsfargen gjennomsiktig.
+Opacity gjør hele boksen gjennomsiktig, inkludert teksten inni.
+*/
+
+
+.boks2 {
+    background-color: #FF5733;
+    text-transform: uppercase;
+}
+
+.boks3 {
+    background-color: rgb(255, 0, 34);
+    background-image: url("https://picsum.photos/400/200");
+    background-size: cover;
+    background-size: contain;
+}
+
+
+h1 {
+    color: hsl(11, 100%, 60%);
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+body {
+    background-color: lightgray;
+    font-family: 'Gill Sans', Arial, sans-serif;
+}
+
+.stor-tekst {
+    font-size: 1.2rem;
+}
+
+.linje {
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+}
